@@ -26,15 +26,15 @@ function App() {
   }
   return (
     <div className="w-full h-screen flex justify-center items-center bg-slate-700">
-      <div className="w-4/12 h-3/6 bg-slate-800 rounded-3xl overflow-hidden shadow-2xl">
-        <h1 className='py-5 capitalize text-slate-400 text-2xl text-center '>
+      <div className="lg:w-4/12 h-5/6 bg-slate-800 rounded-3xl overflow-hidden shadow-2xl xs:w-full">
+        <h1 className='py-5 capitalize text-slate-400 lg:text-2xl text-center sm:text-xl '>
           simplest working calculator app
         </h1>
         <div className="flex justify-center flex-col items-center gap-5">
           <div className="m-auto flex">
             <input 
             type="number"
-            className='w-24 h-10 mx-5 p-5 outline-none bg-slate-900 text-yellow-300  rounded-2xl'
+            className='lg:w-24 w-1/3 h-10 mx-5 p-5 outline-none bg-slate-900 text-yellow-300  rounded-2xl'
             value={inputOne}
             onChange={(e) => setInpustOne(e.target.value)}
             />
@@ -45,7 +45,7 @@ function App() {
             </div>
             <input 
             type="number"
-            className='w-24 h-10 mx-5 p-5 outline-none bg-slate-900 text-yellow-300 rounded-2xl'
+            className='lg:w-24 w-1/3 h-10 mx-5 p-5 outline-none bg-slate-900 text-yellow-300 rounded-2xl'
             value={inputTwo}
             onChange={(e) => setInpustTwo(e.target.value)}
             />
