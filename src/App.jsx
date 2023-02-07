@@ -31,7 +31,7 @@ function App() {
           simplest working calculator app
         </h1>
         <div className="flex justify-center flex-col items-center gap-5">
-          <div className="m-auto flex">
+          <div className="flex justify-between">
             <input 
             type="number"
             className='lg:w-24 w-1/3 h-10 mx-5 p-5 outline-none bg-slate-900 text-yellow-300  rounded-2xl'
